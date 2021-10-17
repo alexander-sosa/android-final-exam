@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListaInscripcionFragment"
+
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#20EA7A"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de Inscripciones"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:id="@+id/tvUno"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvInscripciones"
+        />
+
+</LinearLayout>
